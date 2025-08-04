@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HelpingHands NGO</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">HelpingHands</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#volunteer">Volunteer</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero-section text-white d-flex align-items-center">
+  <div class="container text-center">
+    <h1 class="display-5 fw-bold">Empowering Lives, Creating Impact</h1>
+    <p class="lead mt-3 mb-4">Join us in building a brighter future through education, healthcare, and compassion.</p>
+    <a href="#volunteer" class="btn btn-outline-light btn-lg">Become a Volunteer</a>
+  </div>
+</section>
+
+<!-- About Us -->
+<section id="about" class="bg-light py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">About Us</h2>
+      <p class="text-muted">Who we are & what we do</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4 text-center">
+        <div class="p-4 border rounded bg-white h-100 shadow-sm">
+          <h5 class="fw-semibold">Our Mission</h5>
+          <p>To uplift marginalized communities through education, medical aid, and awareness programs.</p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="p-4 border rounded bg-white h-100 shadow-sm">
+          <h5 class="fw-semibold">Our Vision</h5>
+          <p>Creating a sustainable and inclusive world where everyone has access to basic rights.</p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="p-4 border rounded bg-white h-100 shadow-sm">
+          <h5 class="fw-semibold">Our Reach</h5>
+          <p>Over 50,000+ lives impacted across 100+ villages through relentless volunteer efforts.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Volunteer Form -->
+<section id="volunteer" class="volunteer-section py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-white">Volunteer With Us</h2>
+      <p class="text-white-50">Make a difference by being part of our mission</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <form class="bg-white p-4 p-md-5 rounded shadow-sm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your full name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Why do you want to volunteer?</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Your motivation..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Submit Application</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white py-3">
+  <small>&copy; 2025 HelpingHands NGO. All rights reserved.</small>
+</footer>
+
+<!-- Bootstrap JS (for navbar toggle) -->
+
+</body>
+</html>
